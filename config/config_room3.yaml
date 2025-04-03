@@ -1,0 +1,35 @@
+FloorMapFromSLAM:
+  extract_contour_first: false        # bool
+  epsilon: 0.01                       # float
+  min_area: 150                       # int
+  kernel_size: 3                      # int
+  dilate_iteration: 2                 # int
+
+  Hough_thresh: 50                    # int
+  Hough_minLength: 50                # int
+  Hough_maxGap: 10                   # int
+
+  refinement: true                    # bool
+
+  output_vector_image: true          # bool
+  room_num: "room3"                   # str
+  simple_output: false               # bool
+  output_format: ".png"              # string
+
+remove_redundant_lines:
+  angle_thresh: 10.0                  # float (degrees)
+  distance_thresh: 10.0               # float (pixels)
+  length_thresh: 15.0                 # float (pixels)
+
+contour_completion:
+  horizon: 5                          # int
+  sort: "xc"                          # str
+  ascending: true                     # bool
+
+  thresh_parallel: 10.0               # float (degrees)
+  thresh_perp: 10.0                   # float (degrees)
+  thresh_collinear: 10.0              # float (pixels)
+  thresh_dist: 16.0                   # float (pixels)
+
+  min_seg_length: 50                  # int
+  max_closepoint_dist: 200            # int
