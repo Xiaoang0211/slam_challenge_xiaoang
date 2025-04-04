@@ -92,6 +92,8 @@ Furthermore, point connectivity is verified to ensure that every endpoint is sha
 
 If vector images are required (e.g., DXF format), the y-axis must be inverted to match standard vector graphics coordinate systems that differs from OpenCV and Matplotlib
 
+---
+
 ### Code Structure
 
 <pre> project_root/ 
