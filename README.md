@@ -96,7 +96,7 @@ If vector images are required (e.g., DXF format), the y-axis must be inverted to
 
 ### Code Structure
 
-<pre> project_root/ 
+<pre> slam_challenge_xiaoang/ 
         ├── assets/ 
         ├── config/  
         │     ├── config_room1.py  
