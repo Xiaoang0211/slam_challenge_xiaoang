@@ -11,14 +11,14 @@ FloorMapFromSLAM:
 
   refinement: true                  # bool
 
-  output_vector_image: trues       # bool
+  output_vector_image: true       # bool
   room_num: "room1"                # str
   simple_output: false              # bool
   output_format: ".png"              # string
 
 remove_redundant_lines:
   angle_thresh: 5.0               # float (degrees)
-  distance_thresh: 5.0             # float (pixels)
+  distance_thresh: 10.0             # float (pixels)
   length_thresh: 15.0              # float (pixels)
 
 contour_completion:
